@@ -153,17 +153,18 @@ nav  > ul > li > a {
 }
   footer{ 
     display: block;
-    height: 3vh;
+    height: 1.3rem;
     background: linear-gradient( #21c229 20%,#0e4711, #2c3d47);
     width: 100vw;
     color: #25333e;
     text-align: center;
-    justify-self: center;
+    text-justify:distribute;
     display: inline-block;
     position: fixed;
     bottom:0;
     border-top: solid black;
     font-weight: 900;
+    font-size: 0.8rem;
   }
 
   @keyframes spinAnimation {

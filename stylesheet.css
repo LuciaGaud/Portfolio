@@ -54,13 +54,24 @@ body {
   margin-top: 3vh;
   animation: frombelowAnimation 2s ease-in-out forwards;
 }
+.skills {
+  color: white;
+  font-size: 2vh;
+  width: 60vw;
+  text-align: center;
+  margin-top: 3vh;
+  animation: frombelowAnimation 2s ease-in-out forwards;
+}
 
 .fullbio {
   min-height: 100vh;
 }
 
 a {
-  all: unset;
+  color: unset;
+  font-display: unset;
+  font-style: unset;
+  text-decoration:unset;
 }
 
 
@@ -86,6 +97,11 @@ nav {
   display: block;
   border-radius: 5%;
   object-fit: contain;
+}
+
+ul {
+  text-align: center;
+  list-style-position: inside;
 }
 
 nav > ul {

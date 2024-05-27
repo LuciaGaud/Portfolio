@@ -59,6 +59,11 @@ body {
   min-height: 100vh;
 }
 
+a {
+  all: unset;
+}
+
+
 nav {
   background-color: #25333e;
   background: linear-gradient(#31414e, #2c3d47, #26343f);
@@ -150,14 +155,14 @@ figcaption {
 footer {
   display: block;
   height: 3rem;
-  background: linear-gradient(#21c229 20%, #0e4711, #2c3d47);
+  background: linear-gradient(#21c229 30%, #17721c, #21c229);
   width: 100vw;
-  color: #25333e;
+  color: #2c3d47;
   text-align: center;
   position: fixed;
   bottom: 0;
   border-top: solid black;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 1rem;
   line-height: 3rem;
 }
